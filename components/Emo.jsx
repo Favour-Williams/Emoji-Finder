@@ -4,7 +4,7 @@ export default function Emo({emoji}) {
   return (
     <div >
         <div> 
-            {emoji.symbol} <p>{emoji.title}</p>
+            {emoji.symbol} {emoji.title}
             
         </div>
     </div>
