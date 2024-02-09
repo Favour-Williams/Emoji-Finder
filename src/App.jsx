@@ -14,7 +14,7 @@ function App() {
   
   return (
     <>
-      <header></header>
+      <header>Finder Your Emoji</header>
       <input
         ref={inputS}
         onChange={(e)=>setSearch(e.target.value)}
