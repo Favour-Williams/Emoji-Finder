@@ -18,6 +18,7 @@ function App() {
       <input
         ref={inputS}
         onChange={(e)=>setSearch(e.target.value)}
+        placeholder='Enter emoji name'
       />
       {EmojiData.Emoji.filter((emoji)=>{
         if(search ===""){
